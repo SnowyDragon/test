@@ -1,0 +1,28 @@
+.nav{
+	height: 2%;
+	width: 100%;
+	background-color: green;
+}
+
+.item{
+	display: inline-block;
+	width: 33%;
+	font-size: 24px;
+}
+.item:hover{
+	color: red;
+	cursor: pointer;
+}
+
+.example{
+	background-color: red;
+	display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .example {
+  	display: block;
+    background-color: yellow;
+    width: 60%
+  }
+}
